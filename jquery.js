@@ -29,4 +29,8 @@ $('#search').click(function () {
 
 
 // main carousel
-$('.main-carousel').slick();
+$('.main-carousel').slick({
+    fade: true,
+    arrows: false,
+    speed: 500,
+});
