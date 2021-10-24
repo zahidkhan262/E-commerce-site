@@ -1,11 +1,14 @@
 // navigation
 $('#bars').click(function () {
-    $('.navigation-ul').toggleClass('active-nav')
+    $('.navigation-ul').toggleClass('active-nav');
+})
+$('.main-page, .best-seller, .best-seller-carousel, .our-services').click(function () {
+    $('.navigation-ul').removeClass('active-nav')
 })
 
 // scroll top
 $(window).scroll(function () {
-    if ($(window).scrollTop() > 30) {
+    if ($(window).scrollTop() > 90) {
         $('header').addClass('menu-nav');
     }
     else {
