@@ -8,11 +8,13 @@ $('.main-page, .best-seller, .best-seller-carousel, .our-services').click(functi
 
 // scroll top
 $(window).scroll(function () {
-    if ($(window).scrollTop() > 90) {
+    if ($(window).scrollTop() >= 90) {
+        $('.top-header').hide(600);
         $('header').addClass('menu-nav');
     }
     else {
         $('header').removeClass('menu-nav')
+        $('.top-header').show(400);
     }
 })
 
