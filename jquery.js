@@ -9,12 +9,12 @@ $('.main-page, .best-seller, .best-seller-carousel, .our-services').click(functi
 // scroll top
 $(window).scroll(function () {
     if ($(window).scrollTop() >= 90) {
-        $('.top-header').hide(600);
+        $('.top-header').slideUp(600);
         $('header').addClass('menu-nav');
     }
     else {
         $('header').removeClass('menu-nav')
-        $('.top-header').show(400);
+        $('.top-header').slideDown(400);
     }
 })
 
@@ -30,6 +30,11 @@ $('#search').click(function () {
 
 
 
+// show details 
+
+$('#view').click(function () {
+
+})
 
 
 

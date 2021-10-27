@@ -14,10 +14,10 @@
 }
 body{overflow-x: hidden;}
 
-h1{font-size: 25px; font-weight: bold;}
-h2{font-size: 20px; font-weight: 700;}
-h3{font-size: 16px; font-weight: 500;}
-h4{font-size: 14px; font-weight: 400;}
+h1{font-size: 25px!important; font-weight: bold;}
+h2{font-size: 20px!important; font-weight: 700;}
+h3{font-size: 16px!important; font-weight: 500;}
+h4{font-size: 14px!important; font-weight: 400;}
 
 p{font-size: 14px;}
 
@@ -208,7 +208,25 @@ nav{
     margin-bottom: 10px;
     font-weight: 700;
 }
-.cards{width: 100%}
+.cards{width: 100%; position: relative; height: 100%;}
+
+.quick-add-view{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-35%);
+}
+.quick-add-view i{
+    display:none; 
+    padding: 10px; 
+    background: var(--dark-2);
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.cards:hover .quick-add-view i{display: block;}
+
+
 
 .card-img-1 img{
     width: 100%;
@@ -238,7 +256,9 @@ nav{
 .card-1{
     width: 100%;
     padding: 10px;
+    z-index: 11111;
 }
+
 .arrows{position: relative;}
 .slick-next,.slick-prev{
     position: absolute;

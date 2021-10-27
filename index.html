@@ -26,10 +26,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <!-- bootstrap css -->
-    <!-- <link rel="stylesheet" href="bootstrap.css"> -->
+    <link rel="stylesheet" href="bootstrap.css">
 
     <!-- bootstrap javascript plugin -->
-    <!-- <script src="bootstrap.bundle.js"></script> -->
+    <script src="bootstrap.bundle.js"></script>
 
 
     <!-- fontawesome  -->
@@ -113,6 +113,48 @@
         </div>
     </div>
 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content w-100">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Show Details</h5>
+                    <button class="close btn-primary" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="cards d-flex-1">
+                        <div class="card-img-1 c-img-0">
+                            <img src="a1.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h4>Neck Tank Top</h4>
+                            <span class="price"><strike>Rs. 1799</strike>Rs. 799</span>
+                            <div class="star-icons">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div id="color-change-cloth-0" class="small">
+                                <img src="a1.jpg" alt="" class="hide ">
+                                <img src="a3.jpg" alt="" class="hide">
+                                <img src="a4.jpg" alt="" class="hide">
+                            </div>
+                            <div class="add-buy">
+                                <button class="btn btn-primary">Add to cart</button>
+                                <button class="btn btn-warning">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
 
     <!-- best seller with card -->
 
@@ -125,6 +167,11 @@
             <div class="rows">
                 <div class="cols-3" data-aos="fade-in">
                     <div class="cards">
+                        <div class="quick-add-view d-flex-1">
+                            <i class="fa fa-eye" aria-hidden="true" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"></i>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
                         <div class="card-img-1 c-img-0">
                             <img src="a1.jpg" alt="">
                         </div>
@@ -148,6 +195,11 @@
                 </div>
                 <div class="cols-3" data-aos="fade-out">
                     <div class="cards">
+                        <div class="quick-add-view d-flex-1">
+                            <i class="fa fa-eye" aria-hidden="true" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"></i>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
                         <div class="card-img-1 c-img-1">
                             <img src="a4.jpg" alt="">
                         </div>
@@ -171,6 +223,11 @@
                 </div>
                 <div class="cols-3" data-aos="zoom-in">
                     <div class="cards">
+                        <div class="quick-add-view d-flex-1">
+                            <i class="fa fa-eye" aria-hidden="true" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"></i>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
                         <div class="card-img-1 c-img-2">
                             <img src="a3.jpg" alt="">
                         </div>
@@ -194,6 +251,11 @@
                 </div>
                 <div class="cols-3" data-aos="zoom-out">
                     <div class="cards">
+                        <div class="quick-add-view d-flex-1">
+                            <i class="fa fa-eye" aria-hidden="true" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"></i>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
                         <div class="card-img-1 c-img-3">
                             <img src="a2.jpg" alt="">
                         </div>
@@ -217,6 +279,11 @@
                 </div>
                 <div class="cols-3" data-aos="fade-down">
                     <div class="cards">
+                        <div class="quick-add-view d-flex-1">
+                            <i class="fa fa-eye" aria-hidden="true" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"></i>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
                         <div class="card-img-1 c-img-4">
                             <img src="a7.jpg" alt="">
                         </div>
@@ -240,6 +307,11 @@
                 </div>
                 <div class="cols-3" data-aos="fade-up">
                     <div class="cards">
+                        <div class="quick-add-view d-flex-1">
+                            <i class="fa fa-eye" aria-hidden="true" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"></i>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
                         <div class="card-img-1 c-img-5">
                             <img src="a9.jpg" alt="">
                         </div>
@@ -263,6 +335,11 @@
                 </div>
                 <div class="cols-3" data-aos="zoom-in">
                     <div class="cards">
+                        <div class="quick-add-view d-flex-1">
+                            <i class="fa fa-eye" aria-hidden="true" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"></i>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
                         <div class="card-img-1 c-img-6">
                             <img src="a15.jpg" alt="">
                         </div>
@@ -286,6 +363,11 @@
                 </div>
                 <div class="cols-3" data-aos="fade-up">
                     <div class="cards">
+                        <div class="quick-add-view d-flex-1">
+                            <i class="fa fa-eye" aria-hidden="true" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"></i>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
                         <div class="card-img-1 c-img-7">
                             <img src="a14.jpg" alt="">
                         </div>
@@ -525,7 +607,6 @@
 
     <!-- off in  tops -->
 
-    <!-- Diwali offers sell with sticky full image with caption and three tabs -->
 
     <!-- why you shop with us  icons and pragraph-->
 
