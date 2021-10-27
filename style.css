@@ -208,7 +208,7 @@ nav{
     margin-bottom: 10px;
     font-weight: 700;
 }
-.cards{width: 100%; position: relative; height: 100%;}
+.cards{width: 100%; position: relative; height: 100%; background: var(--gray-color);}
 
 .quick-add-view{
     position: absolute;
@@ -333,6 +333,29 @@ nav{
 }
 
 
+/* testimonial */
+.testimonial{
+    margin: 20px 0;
+}
+
+.testimonial-slick{
+    margin: 10px;
+}
+.box{
+    min-width: 300px!important;
+    padding: 50px 20px 10px 20px;
+    border: 2px solid var(--gray-color);
+    border-radius: 20px;
+    margin: 20px;
+}
+.testi-pro{
+    position: relative;
+    top: 0;
+}
+
+.testi-pro img{border-radius: 100%;}
+.box-body{margin: 0 auto;}
+
 
 
 
@@ -447,7 +470,7 @@ footer{background: var(--dark-2); padding: 20px 20px;}
     .input-search{width: 70%; position: relative; bottom: -10px;}
     .d-n{display: none;}
     .d-full{width: 100%;}
-    .service-card{width: 140px;}
+    .service-card{width: 180px;}
     .card-img-1 img{height: 50%;}
     .bg-sticky{background-position: center;}
 }
