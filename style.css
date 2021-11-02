@@ -477,6 +477,11 @@ footer{background: var(--dark-2); padding: 20px 20px;}
     .service-card{width: 180px;}
     .card-img-1 img{height: 50%;}
     .bg-sticky{background-position: center;}
+    
+}
+@media(max-width:496px){
+    .col-100{width: 100%;}
+    .three-tabs li{display: block;}
 }
 
 
